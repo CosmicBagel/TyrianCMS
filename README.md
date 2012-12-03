@@ -24,3 +24,11 @@ Our development plan is basically to build up the login system, then the blogs, 
 calendar last. Once these core features are functional and tested to our tastes we'll begin fleshing out the CMS
 feature by feature. Development will be done using SQLite, but an actual deployment of the CMS would be expected
 to run on MySQL, at this time NoSQL databases do not interest us.
+
+------------------------------------------------
+
+Versions:
+
+<ul>
+  <li>Rails 3.2.9</li>
+</ul>
