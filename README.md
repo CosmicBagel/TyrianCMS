@@ -1,7 +1,9 @@
 TyrianCMS
 =========
 
-A CMS for multi-game guilds built on rails.
+A CMS for multi-game guilds built on rails.<br />
+Why? To bring together a community of gamers across multiple games, and prevent segregation of the community caused
+by player's divided interest in different games.
 
 Core features:
 
