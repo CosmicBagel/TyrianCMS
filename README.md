@@ -27,7 +27,7 @@ to run on MySQL, at this time NoSQL databases do not interest us.
 
 ------------------------------------------------
 
-Versions:
+Versions being used:
 
 <ul>
   <li>Rails 3.2.9</li>
