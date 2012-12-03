@@ -12,5 +12,12 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp
+*.log
+/tmp/**/*
+/tmp/*
+doc/api
+doc/app
+*.swp
+*-
 /README.rdoc
+.DS_Store
