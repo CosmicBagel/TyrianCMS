@@ -1,2 +1,13 @@
-<h1>Accounts</h1>
-<p>This is the accounts page.</p>
+<h1>All Accounts</h1>
+<p><%= link_to "Create a new account.", new_account_path %></p>
+
+<% @accounts.each do |account| %>
+    <h2><%= link_to account.username, account %> (ID: <%= account.id %>)</h2>
+    <ul>
+        <li>Email: <%= account.email %></li>
+        <li>Profile ID: <%= account.profile %></li>
+    </ul>
+    <p>[<%= link_to "edit", edit_account_path(account) %> 
+        | <%= link_to "delete", account, :confirm => "Are you sure?", :method => :delete %>]</p>
+    <hr />
+<% end %>

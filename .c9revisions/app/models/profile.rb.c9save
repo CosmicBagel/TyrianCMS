@@ -1,0 +1,2 @@
+{"ts":1355027808452,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Profile < ActiveRecord::Base\n  attr_accessible :b, :firstName, :lastName\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":83}]],"length":83}
+{"contributors":["tristan.chambers@hotmail.com"],"silentsave":false,"ts":1355027980296,"patch":[[{"diffs":[[0,"ssible :"],[-1,"b"],[1,"avatar, :biography, :birthDate"],[0,", :first"]],"start1":46,"start2":46,"length1":17,"length2":46}]],"length":112,"saved":false}

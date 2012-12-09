@@ -1,0 +1,21 @@
+<h1>Edit <%= @account.username %></h1>
+
+<%= form_for @account do |f| %>
+
+    <p>
+        <%= f.label :username %>
+        <%= f.text_field :username %>
+    </p>
+    <p>
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+    </p>
+    <p>
+        <%= f.label :email %>
+        <%= f.text_field :email %>
+    </p>
+    <p>
+        <%= f.submit "Update Account" %>
+    </p>
+
+<% end %>
